@@ -19,7 +19,7 @@ class ChromePhpServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		// Register the package
-		$this->package('hsyngkby/chrome-php', 'chromephp', __DIR__.'/../../');
+		$this->package('hsyngkby/chromephp', 'chromephp', __DIR__.'/../../');
 
 		// Register IoC bindings
 		$this->registerBindings();
